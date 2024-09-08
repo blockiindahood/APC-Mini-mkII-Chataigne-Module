@@ -42,7 +42,8 @@ function sendButtonColorBrightness(id, color, brightness)
 {
 	var note = buttonNotes[id[0]][id[1]];
 
-					// newColor[1] = Math.round((color[1] * intensity) / 255);
+	// newColor[1] = Math.round((color[1] * intensity) / 255);
+	brightness = parseInt(brightness);
 	var r = Math.round(((color[0] * 127) * brightness) / 255);
 	var g = Math.round(((color[1] * 127) * brightness) / 255);
 	var b = Math.round(((color[2] * 127) * brightness) / 255);
