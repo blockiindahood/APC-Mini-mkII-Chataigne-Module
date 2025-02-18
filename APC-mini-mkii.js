@@ -135,7 +135,7 @@ function resync()
 
 function init()
 {
-	script.log("Setting up Launchpad Mini mk3");
+	script.log("Setting up APC mini mk2");
 
 	// init variable
 	for (var i = 0; i < 9; i++) 
